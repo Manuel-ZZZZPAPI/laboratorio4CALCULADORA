@@ -11,6 +11,7 @@ android.api = 35
 android.minapi = 21
 android.target = 35
 source.dir = .
-log_level = 2
+log_level = 1
+
 
 
