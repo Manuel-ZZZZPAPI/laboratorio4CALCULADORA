@@ -1,5 +1,5 @@
 <CustButton@Button>:
-    font_size: 24
+    font_size: '28sp'
     background_color: (0.2, 0.6, 0.8, 1)
     background_normal: ''
     color: (1, 1, 1, 1)
@@ -22,7 +22,7 @@
         size_hint_y: 0.2
         TextInput:
             id: entry
-            font_size: 36
+            font_size: '42sp'
             halign: "right"
             multiline: False
             background_color: (0.15, 0.15, 0.15, 1)
@@ -94,7 +94,7 @@
         CustButton:
             text: "C"
             background_color: (0.9, 0.2, 0.2, 1)
-            on_press: root.borrar()
+            on_press: entry.text = ""
         CustButton:
             text: "^"
             on_press: entry.text += self.text
